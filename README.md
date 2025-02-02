@@ -1,4 +1,4 @@
-# EEG Clustering and Model Evaluation  
+# EEG Clustering and Model Evaluation  for Data Mining Class
 
 ## Description  
 This repository focuses on clustering EEG (electroencephalogram) features using the KMeans algorithm, alongside performance evaluation and visualization. The project includes feature generation, which transforms raw EEG data into meaningful representations for clustering. The primary aim is to assess clustering metrics (e.g., cohesion, separation, silhouette score) and visually compare results across datasets.  
