@@ -1,13 +1,17 @@
-# EEG Clustering and Model Evaluation
+# EEG Clustering and Model Evaluation  
 
-## Overview
-This project explores EEG feature clustering using the K-Means algorithm and evaluates clustering performance using metrics such as cohesion and silhouette score.
+## Description  
+This repository focuses on clustering EEG (electroencephalogram) features using the KMeans algorithm, alongside performance evaluation and visualization. The project includes feature generation, which transforms raw EEG data into meaningful representations for clustering. The primary aim is to assess clustering metrics (e.g., cohesion, separation, silhouette score) and visually compare results across datasets.  
 
-## Features
-- **EEG Data Processing**: Preprocess and extract relevant features from EEG signals.
-- **K-Means Clustering**: Apply K-Means to group EEG feature sets.
-- **Evaluation Metrics**: Compute cohesion (within-cluster variance) and silhouette score (cluster separation and compactness).
-- **Visualization**: Generate plots to illustrate clustering results.
+### Key Features  
+- **EEG Data Pre-processing**: Ensures clean and structured data for analysis.  
+- **Feature Generation**: Extracts meaningful features from raw EEG signals to improve clustering performance.  
+- **Clustering with KMeans**: Groups EEG features into distinct clusters.  
+- **Performance Evaluation**: Metrics include:  
+  - Silhouette Score  
+  - Cohesion and Separation  
+  - Recall, Specificity, and F1-Score  
+- **Visualization**: Provides visual comparisons of clustering results across multiple datasets.  
 
 ## Requirements
 Ensure you have the following installed:
